@@ -1,0 +1,311 @@
+@charset 'utf-8';
+
+/*基本样式*/
+
+body,
+ul,
+ol,
+li,
+header,
+footer,
+section,
+article,
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100px;
+}
+
+body {
+    font-size: 0.2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: Microsoft YaHei;
+    color: #444444;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+
+/*header-banner部分*/
+
+header {
+    width: 6.4rem;
+}
+
+header img {
+    display: block;
+    width: 100%;
+}
+
+
+/*section部分*/
+
+section {}
+
+.box {
+    width: 6.4rem;
+    padding-top: 0.41rem;
+    border-top: 0.034rem solid #eee;
+}
+
+.box-title {
+    background: url(../images/side.gif) no-repeat 0 0.015rem;
+    background-size: 0.1rem 0.26rem;
+}
+
+.box-title h1 {
+    padding-left: 0.2rem;
+    font-size: 0.307rem;
+    line-height: 0.307rem;
+    color: #444444;
+}
+
+.box-title h3 {
+    margin-top: 0.17rem;
+    padding-left: 0.2rem;
+    font-size: 0.2rem;
+    line-height: 0.2rem;
+    color: #bebebe;
+}
+
+.box-content {
+    padding: 0.34rem 0 0.375rem 0;
+}
+
+
+/*自如客专享*/
+
+.zx {
+    margin-top: 0.44rem;
+    padding: 0;
+}
+
+.sp-main {
+    height: 2rem;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.swiper1,
+.swiper2,
+.swiper3,
+.swiper4 {
+    width: 1rem;
+    height: 1.062rem;
+    text-align: center;
+}
+
+.banner img {
+    display: block;
+    width: 0.75rem;
+    margin: 0 auto;
+}
+
+.banner p {
+    margin-top: 0.2rem;
+    color: #777;
+}
+
+
+/*精选优品-精选服务*/
+
+.box .yp,
+.box .fw {
+    display: flex;
+    padding-left: 0.307rem;
+    padding-right: 0.307rem;
+}
+
+.yp div,
+.fw div {
+    width: 2.13rem;
+}
+
+.yp div.center,
+.fw div.center {
+    width: 2.13rem;
+    padding: 0 0.1rem;
+}
+
+.yp div img,
+.fw div img {
+    width: 100%;
+}
+
+
+/*logo*/
+
+.box-img {
+    width: 5.785rem;
+    padding: 0 0.307rem 0.375rem;
+}
+
+.box-img img {
+    width: 100%;
+}
+
+
+/*热门推荐*/
+
+.tj ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tj ul li {
+    margin: 0 0.12rem 0.12rem 0;
+    width: 2.8rem;
+    height: 1.3rem;
+    border: 0.01rem solid #eee;
+}
+
+.tj li h4 {
+    margin: 0.1rem;
+    font-size: 0.24rem;
+}
+
+.tj li p {
+    margin: 0.1rem;
+    font-size: 0.19rem;
+    color: #999;
+}
+
+.tj ul li.item1 {
+    background: url(../images/page-1-03.png) no-repeat 1.5rem 0;
+    background-size: 1.3rem;
+}
+
+.tj ul li.item2 {
+    background: url(../images/page-1-05.png) no-repeat 1.5rem 0;
+    background-size: 1.3rem;
+}
+
+.tj ul li.item3 {
+    background: url(../images/page-1-09.png) no-repeat 1.5rem 0;
+    background-size: 1.3rem;
+}
+
+.tj ul li.item4 {
+    background: url(../images/page-1-10.png) no-repeat 1.5rem 0;
+    background-size: 1.3rem;
+}
+
+
+/*为我服务的*/
+
+.tome {
+    display: flex;
+    justify-content: center;
+}
+
+.tome .person {
+    padding: 0 0.31rem 0 0;
+}
+
+.tome .person img {
+    width: 0.95rem;
+}
+
+.tome .person p {
+    margin-top: 0.2rem;
+    font-size: 0.15rem;
+    -webkit-transform: scale(0.8);
+}
+
+.tome .info {
+    display: flex;
+    width: 3.5rem;
+    flex-direction: column;
+    color: #999;
+}
+
+.info-name strong {
+    margin-right: 0.2rem;
+    font-size: 0.24rem;
+    color: #444;
+}
+
+.info-start {
+    margin: 0.15rem 0;
+}
+
+.info-start img {
+    width: 0.2rem;
+}
+
+.info-time {
+    letter-spacing: 0;
+}
+
+.concat img {
+    width: 1rem;
+}
+
+
+/*服务者的故事*/
+
+.box-content .box-img {
+    padding-bottom: 0;
+}
+
+
+/*footer部分*/
+
+footer {
+    width: 6.4rem;
+    height: 0.9rem;
+    display: flex;
+    justify-content: center;
+    border-top: 0.034rem solid #eee;
+    color: #999;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    width: 1.28rem;
+    justify-content: center
+}
+
+footer div img {
+    display: block;
+    width: 0.4rem;
+    margin: 0 auto;
+}
+
+footer div p {
+    margin-top: 0.08rem;
+    text-align: center
+}
+
+footer div p.active {
+    color: #444;
+}
